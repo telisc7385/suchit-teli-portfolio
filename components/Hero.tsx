@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
@@ -49,7 +49,10 @@ export default function Hero() {
               <ArrowRight size={17} />
             </a>
             <a
-              href="/resume.pdf"
+              href="/Suchit_Teli_NodeJS_Backend_Engineer.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-2xl border border-border bg-surface px-6 py-3.5 text-sm font-medium text-foreground transition hover:border-accent/40 hover:text-accent"
             >
               Download Resume
