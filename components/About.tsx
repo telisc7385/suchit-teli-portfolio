@@ -32,7 +32,7 @@ export default function About() {
             Full-stack engineer with 2+ years of experience building scalable
             web apps, RESTful APIs, and AI-powered platforms. Currently
             building a multi-tenant RAG chatbot at Prominno Labs. Immediate
-            joiner — available from June 1, 2026.
+            joiner — open to opportunities.
           </p>
 
           <div className="mt-8 flex items-center gap-3 rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm text-muted">

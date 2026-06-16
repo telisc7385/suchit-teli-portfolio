@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 
-const resumeHref = "/Suchit_Teli_NodeJS_Backend_Engineer.pdf";
+const resumeHref = "/Suchit_Teli_Full_Stack_Engineer.pdf";
 
 export default function Hero() {
   const handleResumeClick = () => {
@@ -11,7 +11,7 @@ export default function Hero() {
 
     const link = document.createElement("a");
     link.href = resumeHref;
-    link.download = "Suchit_Teli_NodeJS_Backend_Engineer.pdf";
+    link.download = "Suchit_Teli_Full_Stack_Engineer.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -37,7 +37,7 @@ export default function Hero() {
         >
           <div className="mb-8 inline-flex items-center gap-3 rounded-full border border-success/30 bg-success/10 px-4 py-2 text-sm text-success">
             <span className="h-2.5 w-2.5 rounded-full bg-success animate-pulse" />
-            Available from June 1, 2026
+            Immediate Joiner
           </div>
 
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.35em] text-accent">
@@ -50,7 +50,7 @@ export default function Hero() {
             Full-Stack & Backend Engineer | Node.js · Next.js · RAG/AI
           </p>
           <p className="mt-4 max-w-2xl text-base leading-7 text-gray-700 dark:text-slate-400">
-            Building scalable apps · RAG/AI systems · Available June 1, 2026
+            Building scalable apps · RAG/AI systems · Immediate Joiner
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
