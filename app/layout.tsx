@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import ScrollToTop from "@/components/ScrollToTop";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import ThemeProvider from "@/components/ThemeProvider";
 import "./globals.css";
 
@@ -47,6 +48,7 @@ export default function RootLayout({
           <div className="relative min-h-screen overflow-x-clip bg-background">
             <Navbar />
             {children}
+            <WhatsAppButton />
             <ScrollToTop />
           </div>
         </ThemeProvider>

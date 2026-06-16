@@ -79,7 +79,7 @@ export default function Navbar() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "border-b border-white/10 bg-slate-950/78 backdrop-blur-xl dark:bg-slate-950/78"
+          ? "border-b border-black/10 bg-white/80 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/78"
           : "border-b border-transparent bg-transparent"
       }`}
     >
@@ -132,7 +132,7 @@ export default function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className="border-t border-white/10 bg-slate-950/95 px-4 py-4 backdrop-blur-xl md:hidden">
+        <div className="border-t border-black/10 bg-white/95 px-4 py-4 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/95 md:hidden">
           <nav className="mx-auto flex max-w-6xl flex-col gap-1">
             {navLinks.map((link) => (
               <a

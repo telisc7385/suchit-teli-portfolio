@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { motion, useInView } from "framer-motion";
 import { GraduationCap, MapPin } from "lucide-react";
@@ -30,9 +30,9 @@ export default function About() {
           </h2>
           <p className="mt-6 text-base leading-8 text-muted">
             Full-stack engineer with 2+ years of experience building scalable
-            web apps, RESTful APIs, and AI-powered platforms. Currently
-            building a multi-tenant RAG chatbot at Prominno Labs. Immediate
-            joiner — open to opportunities.
+            web apps, RESTful APIs, and AI-powered platforms. Currently building
+            a multi-tenant RAG chatbot at Prominno Labs. Immediate joiner — open
+            to opportunities.
           </p>
 
           <div className="mt-8 flex items-center gap-3 rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm text-muted">
@@ -54,10 +54,12 @@ export default function About() {
         </div>
 
         <div className="flex items-center justify-center">
-          <div className="relative flex h-full min-h-80 w-full items-center justify-center rounded-[2rem] border border-accent/30 bg-gradient-to-br from-accent-soft via-surface to-background p-8 shadow-[0_20px_80px_rgba(26,86,219,0.18)]">
-            <div className="flex h-56 w-56 items-center justify-center rounded-[2.5rem] border border-white/20 bg-gradient-to-br from-[#1A56DB] to-[#7C3AED] text-5xl font-bold tracking-tight text-white shadow-[0_0_0_1px_rgba(255,255,255,0.12),0_0_48px_rgba(26,86,219,0.45),0_0_90px_rgba(124,58,237,0.22)]">
-              ST
-            </div>
+          <div className="flex h-full min-h-80 w-full items-center justify-center rounded-[2rem] border border-accent/30 bg-gradient-to-br from-accent-soft via-surface to-background p-8 shadow-[0_20px_80px_rgba(26,86,219,0.18)]">
+            <img
+              src="/Suchit_teli_profile_picture.png"
+              alt="Suchit Teli"
+              className="aspect-square w-full max-w-[290px] rounded-[2.5rem] border border-white/20 object-cover shadow-[0_0_0_1px_rgba(255,255,255,0.12),0_0_48px_rgba(26,86,219,0.45),0_0_90px_rgba(124,58,237,0.22)]"
+            />
           </div>
         </div>
       </motion.div>
